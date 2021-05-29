@@ -22,7 +22,6 @@ func BenchmarkRepeat(b *testing.B) {
 }
 
 func BenchmarkStringRepeat(b *testing.B) {
-
 	for i := 0; i < b.N; i++ {
 		strings.Repeat("a", 5)
 	}
